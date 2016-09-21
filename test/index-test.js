@@ -21,6 +21,7 @@ describe('Pure functions', function() {
   describe('removeFromPlaylist()', function () {
     it('should remove a given episode from a given playlist', function() {
       const updatedPlaylist = removeFromPlaylist(episodes, episodes[0]);
+      debugger;
       expect(updatedPlaylist.length).toEqual(episodes.length - 1);
     });
 
